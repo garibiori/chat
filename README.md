@@ -1,4 +1,4 @@
-# mtchat
+# chat
 This repo contains programs to implement a multi-threaded TCP chat server and client
 
 * MtClient.java handles keyboard input from the user.
@@ -9,9 +9,9 @@ This repo contains programs to implement a multi-threaded TCP chat server and cl
 
 ## Identifying Information
 
-* Name: Trey Alexander Ori Garibi
-* Student ID: 2374235 2367830
-* Email: roalexander@chapman.edu garibi@chapman.edu
+* Name: Ori Garibi
+* Student ID: 2367830
+* Email: garibi@chapman.edu
 * Course: Data Comms
 * Assignment: PA04
 
@@ -23,9 +23,7 @@ This repo contains programs to implement a multi-threaded TCP chat server and cl
 * MtServer.java
 
 ## References
-* Contributions:
-* Trey: Fixed errors and README/Comments, for the second submission he initiated the quit command and took new inputs for the username before allowing a client to join
-* Ori: Implemented initial Client class to store username with socket information, for submission 2 he figured out how to check the client list for any repetitions
+
 
 ## Known Errors
 
@@ -38,4 +36,7 @@ This repo contains programs to implement a multi-threaded TCP chat server and cl
 
 
 ## Execution Instructions
+*javac *.java
+*java MtServer
+*java MtClient
 * Input username then send messages to server
